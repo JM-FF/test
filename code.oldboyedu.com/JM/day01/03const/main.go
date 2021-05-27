@@ -147,6 +147,7 @@ func main() {
 	var studentPointer *Student
 	studentPointer = &student1
 	fmt.Println(*studentPointer)
+	fmt.Println((*studentPointer).name)
 	fmt.Println("------------------------------")
 	fmt.Println(*&studentPointer.num)
 	fmt.Println(*&studentPointer.name)
